@@ -30,6 +30,7 @@ public class CarregaArquivoLogica implements Logica {
 			InputStream arquivoCarregado = req.getInputStream();
 			arquivo.upload("D:\\", nomeArquivo, arquivoCarregado);
 			
+		
 			System.out.println("arquivo: " + nomeArquivo);
 		}
 		

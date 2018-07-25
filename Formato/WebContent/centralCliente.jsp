@@ -47,7 +47,7 @@ body, h1, h2, h3, h4, h5, h6 {
 			<a href="servicos.jsp"
 				class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Serviços</a>
 			<a href="#" class="w3-bar-item w3-button w3-padding-large w3-white">Central
-				do cliente</a> <a href="#"
+				do cliente</a> <a href="contato.jsp"
 				class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Contato</a>
 			<a href="sobre.jsp"
 				class="w3-bar-item w3-button w3-padding-large w3-hover-white">Sobre</a>

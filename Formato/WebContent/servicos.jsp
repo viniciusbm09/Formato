@@ -37,10 +37,10 @@ body, h1, h2, h3, h4, h5, h6 {
 				title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a> <a
 				href="index.jsp"
 				class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Apreentação</a>
-			<a href="#" class="w3-bar-item w3-button w3-padding-large w3-white">Serviços</a>
+			<a href="servicos.jsp" class="w3-bar-item w3-button w3-padding-large w3-white">Serviços</a>
 			<a href="centralCliente.jsp"
 				class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Central
-				do cliente</a> <a href="#"
+				do cliente</a> <a href="contato.jsp"
 				class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Contato</a>
 			<a href="sobre.jsp" class="w3-bar-item w3-button w3-padding-large w3-hover-white">Sobre</a>
 			<!-- SESSOES -->

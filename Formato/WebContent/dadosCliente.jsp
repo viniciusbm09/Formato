@@ -42,7 +42,7 @@ body, h1, h2, h3, h4, h5, h6 {
 				class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Serviços</a>
 			<a href="#"
 				class="w3-bar-item w3-button w3-button w3-padding-large w3-white">Central
-				do cliente</a> <a href="#"
+				do cliente</a> <a href="contato.jsp"
 				class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Contato</a>
 			<a href="sobre.jsp"
 				class="w3-bar-item w3-button w3-padding-large w3-hover-white">Sobre</a>
@@ -135,7 +135,7 @@ body, h1, h2, h3, h4, h5, h6 {
 
 				<!--Envio do arquivo-->
 				<div class="w3-container">
-					<form action="mvc?logica=CarregaArquivoLogica"
+					<form action="upload"
 						class="w3-container w3-card-4 w3-light-grey w3-text-red w3-margin"
 						method="post" enctype="multipart/form-data">
 						
@@ -148,7 +148,7 @@ body, h1, h2, h3, h4, h5, h6 {
 						</div>
 
 						<div class="w3-row w3-section">
-							<input type="file" id="myFile" name="fileName"
+							<input type="file" id="myFile" name="arquivo"
 								class="w3-button  w3-block  w3-section w3-ripple w3-padding" required>
 						</div>
 
@@ -176,7 +176,7 @@ body, h1, h2, h3, h4, h5, h6 {
 
 						<br>
 						<button	class="w3-button w3-block w3-section w3-red w3-ripple w3-padding"
-							type="submit" name="btnEnviar" value="enviaArquivo">Enviar</button>
+							type="submit" name="btnEnviar" value="Upload">Enviar</button>
 
 					</form>
 				</div>
